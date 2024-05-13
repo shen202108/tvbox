@@ -161,10 +161,7 @@
 {"key":"drpy_js_310直播","name":"体育 | 310直播[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/310直播.js"},
 
 {"key":"drpy_js_有声小说","name":"听书 | 有声小说[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/有声小说吧.js"}
-
-  
 ],
-  
 "parses":[
 {"name":"Json聚合","type":3,"url":"Demo"},
 {"name": "云API","type": 1,"url": "http://119.91.123.253:2345/Api/yun.php?url="},
