@@ -1,4 +1,3 @@
-
 {
 "spider":"./jar/fan.txt;md5;2a085160a4140e1697c5d6393901ec7e",
 "lives":[
@@ -107,7 +106,7 @@
 
 {"key":"drpy_js_310直播","name":"体育 | 310直播[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/310直播.js"},
 
-{"key":"有声小说js","name":"有声 | 小说","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/有声小说吧.js","style":{"type":"rect","ratio":1},"searchable": 0,"quickSearch": 0,"changeable":0}
+//{"key":"有声小说js","name":"有声 | 小说","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/有声小说吧.js","style":{"type":"rect","ratio":1},"searchable": 0,"quickSearch": 0,"changeable":0}
 
 ],
 "parses":[
