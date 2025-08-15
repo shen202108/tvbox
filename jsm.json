@@ -21,8 +21,6 @@
 
 "sites":[
 {"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js","searchable":1,"quickSearch":0,"changeable":0},
-{"key":"drpy_js_荐片","name":"影视 | 荐片[js]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/荐片.js", "timeout":30},
-{"key":"drpy_js_TVB云播","name":"影视 | TVB云播[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/TVB云播.js"},
 
 {"key":"暴風","name":"影视 | 暴風[直连]","type":1,"api":"https://bfzyapi.com/api.php/provide/vod/?ac=list","searchable":1,"changeable":1},
 {"key":"率率","name":"影视 | 率率[直连]","type":1,"api":"https://suoniapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"changeable":1,"categories":["国产剧","韩剧","日剧","港剧","台剧","动作片","喜剧片","爱情片","科幻片","战争片","恐怖片","剧情片","国产动漫","日韩动漫","欧美动漫","大陆综艺","日韩综艺"]},
@@ -32,43 +30,23 @@
 
 {"key":"drpy_js_LIBVIO","name":"影视 | LIBVIO[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/LIBVIO.js"},
 {"key":"drpy_js_两个BT","name":"影视 | 两个BT[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/两个BT.js"},
-{"key":"drpy_js_在线之家","name":"影视 | 在线之家[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/在线之家.js"},
-{"key":"drpy_js_凌云影视","name":"影视 | 凌云影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/凌云影视.js"},
 
-{"key":"drpy_js_兄弟影视","name":"影视 | 兄弟影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/兄弟影视.js"},
-{"key":"drpy_js_4k剧院","name":"影视 | 4k剧院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/4k剧院.js"},
 {"key":"drpy_js_爱迪影视","name":"影视 | 爱迪影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/爱迪影视.js"},
-{"key":"drpy_js_333影视","name":"影视 | 333影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/333影视.js"},
 
 {"key":"drpy_js_蛋蛋赞","name":"影视 | 蛋蛋赞[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/蛋蛋赞.js"},
 
-{"key":"drpy_js_看了么","name":"影视 | 看了么[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/看了么.js"},
-{"key":"drpy_js_蓝光影院","name":"影视 | 蓝光影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/蓝光影院.js"},
-
-{"key":"drpy_js_中国人线上看","name":"影视 | 中国人线上看[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/中国人线上看.js"},
-
 {"key":"drpy_js_348电影网","name":"影视 | 348电影网[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/348电影网.js"},
 
-
-
-{"key":"苹果","name":"苹果 | 不卡","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"changeable":1},
-
-{"key":"热播","name":"热播 | 多线","type":3,"api":"csp_AppTT","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8I/B5wQc4Qma+pU="},
-{"key":"萌米","name":"萌米 | 多线","type":3,"api":"csp_AppTT","timeout":15,"playerType":1,"ext":"AO7TcBkd8Iifux0Y8Qze6tVlMg=="},
 {"key":"zxzj","name":"在线 | 外剧","type":3,"api":"csp_Zxzj","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.zxzjhd.com/"},
-
-{"key":"Auete","name":"奥特 | 无广","type": 3,"api":"csp_Auete","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.pro/"}, 
 
 {"key":"drpy_js_360影视","name":"官源 | 360[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/360影视.js"},
 {"key":"drpy_js_百忙无果","name":"官源 | 芒果[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/百忙无果.js"},
 {"key":"drpy_js_奇珍异兽","name":"官源 | 爱奇艺[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/奇珍异兽.js"},
 {"key":"drpy_js_菜狗","name":"官源 | 搜狗[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/菜狗.js"},
-{"key":"drpy_js_4KHDR","name":"磁力 | 4KHDR[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/4khdr.js","playerType":"1", "searchable":1, "quickSearch":1, "changeable":1, "timeout":30},
-{"key":"drpy_js_MP4US","name":"磁力 | MP4电影[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/mp4us.js","playerType":"1", "searchable":1, "quickSearch":1, "changeable":1, "timeout":30},
+
 {"key":"drpy_js_电影港","name":"磁力 | 电影港[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/dygang.js","playerType":"1", "searchable":1, "quickSearch":1, "changeable":1, "timeout":30},
 
 {"key":"drpy_js_xb6v","name":"磁力 | 新版6v[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/xb6v.js","playerType":"1", "searchable":1, "quickSearch":1, "changeable":1, "timeout":30},
-{"key":"drpy_js_磁力熊[磁]","name":"磁力 | 磁力熊[js]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":0,"ext":"./js/磁力熊[磁].js", "timeout":30},
 
 {"key":"lf_js_search","name":"搜索 | 路飞[js]","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"./lib/lf_search3_min.js"},
 {"key":"drpy_js_校长影视","name":"夸克 | 校长影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/xzys.js", "quickSearch":1, "changeable":1, "timeout":30},
@@ -77,23 +55,19 @@
 {"key":"drpy_js_爱弹幕","name":"动漫 | 爱弹幕[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/爱弹幕.js"},
 {"key":"drpy_js_奇米动漫","name":"动漫 | 奇米动漫[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/奇米动漫.js"},
 {"key":"drpy_js_去看吧","name":"动漫 | 去看吧[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/去看吧.js"},
-{"key":"drpy_js_怡萱动漫","name":"动漫 | 怡萱动漫[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/怡萱动漫.js"},
+
 {"key":"Dm84","name":"巴士 | 动漫","type":3,"api":"csp_Dm84","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"Anime1","name":"日本 | 动漫","type": 3,"api": "csp_Anime1","searchable": 1,"quickSearch": 1,"changeable":1},
 {"key":"drpy_js_播客","name":"聚合 | 播客[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/播客.js"},
 {"key":"drpy_js_酷6网","name":"聚合 | 酷6网[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/酷6网.js"},
 {"key":"drpy_js_网易公版影像","name":"聚合 | 网易公版[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1.597},"ext":"./js/网易公版影像.js"},
-{"key":"drpy_js_爱车MV","name":"MV | 爱车MV[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/爱车MV.js"},
+
 {"key":"MTV","name":"明星 | MV","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./FTY/MTV.json"},
 {"key":"drpy_js_A8音乐","name":"音频 | A8音乐[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/A8音乐.js"},
-//{"key":"dr_兔小贝","name":"儿童 | 启蒙","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/%E5%85%94%E5%B0%8F%E8%B4%9D.js","style":{"type":"rect","ratio":1.597},"searchable": 0,"quickSearch": 0,"changeable":0},
-//{"key":"少儿教育","name":"少儿 | 教育","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./FTY/少儿教育.json"},
-//{"key":"小学课堂","name":"小学 | 课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./FTY/小学课堂.json"},
-//{"key":"初中课堂","name":"初中 | 课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./FTY/初中课堂.json"},
-//{"key":"高中教育","name":"高中 | 课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./FTY/高中课堂.json"},
+
 {"key":"Aid","name":"🚑急救 | 教学","type":3,"api":"csp_FirstAid","searchable":0,"quickSearch":0,"changeable":0,"style": { "type": "rect", "ratio":3.8}},
 
-{"key":"有声小说js","name":"有声 | 小说","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/有声小说吧.js","style":{"type":"rect","ratio":1},"searchable": 0,"quickSearch": 0,"changeable":0}
+//{"key":"有声小说js","name":"有声 | 小说","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/有声小说吧.js","style":{"type":"rect","ratio":1},"searchable": 0,"quickSearch": 0,"changeable":0}
 
 ],
 "parses":[
